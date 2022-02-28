@@ -80,7 +80,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void next(View button){
+    public void btnSubmit(View button){
+        Intent intent = new Intent(this, MainActivity2.class);
+        Bundle b = new Bundle();
 
+        b.putString("source",srcBundle);
+        b.putString("destination",destBundle);
+        intent.putExtras(b);
+        startActivity(intent);
     }
 }
