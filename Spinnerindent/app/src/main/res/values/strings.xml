@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Spinner indent</string>
+    <string-array name="sourceList">
+        <item>Select City</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="destinationList">
+        <item>Select City</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+    </string-array>
 </resources>

@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.105" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/sourceId"
         android:layout_width="293dp"
         android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,27 +42,28 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/destinationId"
         android:layout_width="287dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/sourceId"
         app:layout_constraintVertical_bias="0.071" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSubmitId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:text="Submit"
+        android:onClick="btnSubmit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintTop_toBottomOf="@+id/destinationId"
         app:layout_constraintVertical_bias="0.047" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
