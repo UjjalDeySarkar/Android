@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Birthday Greet</string>
+    <string name="txtview">Enter The Name</string>
+    <string name="click">Click</string>
+    <string name="hbd">Happy Birthday</string>
+
+</resources>

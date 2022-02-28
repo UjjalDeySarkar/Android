@@ -1,0 +1,2 @@
+com/ujjal/birthdaygreet/BuildConfig.java
+ com.ujjal.birthdaygreet.BuildConfig
